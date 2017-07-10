@@ -1,0 +1,78 @@
+body {
+    margin:0px;
+    padding:0px;
+    width:100%;
+    background-color:black;
+}
+
+#banner {
+    background-color:orange;
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:7rem;
+}
+
+#banner h1 {
+    color:black;
+    font-size: 4em;
+    font-family: 'Arial', sans-serif;
+    padding:0px;
+    margin:0px;
+} 
+
+.subtitle {
+    margin-top:2rem;
+    background-color:orange;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 5rem;
+}
+
+.subtitle h2 {
+    color:black;
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    padding: 0px;
+    margin:0px;
+}
+
+.paragraph {
+        margin-top:1rem;
+        margin-right:2rem;
+        margin-left:2rem;
+        background-color:orange;
+        border-radius:75px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height:
+}
+
+.paragraph p {
+    white-space: pre;
+    color:black;
+    font-size:2em;
+    padding:0px;
+    margin:0px;
+}
+
+@media only screen and (min-width:300px) and (max-width: 420px) and (orientation: portrait) {
+    
+    #banner {
+            border-radius:75px;
+            height:10rem;
+    }
+    
+    
+
+}
+
+@media only screen and (min-width:480px) and (max-width: 736px) and (orientation: landscape) {
+    
+}
