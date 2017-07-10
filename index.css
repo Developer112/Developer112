@@ -43,7 +43,7 @@ body {
 }
 
 .paragraph {
-        margin-top:1rem;
+        margin-top:2rem;
         margin-right:2rem;
         margin-left:2rem;
         background-color:orange;
@@ -51,11 +51,10 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-        height:
 }
 
 .paragraph p {
-    white-space: pre;
+    white-space: pre-line;
     color:black;
     font-size:2em;
     padding:0px;
@@ -66,11 +65,21 @@ body {
     
     #banner {
             border-radius:75px;
-            height:10rem;
+            height:7rem;
     }
     
+    .paragraph {
+        margin-right:1rem;
+        margin-left:1rem;
+    }
     
-
+    .paragraph p {
+        margin-top:0.5em;
+        margin-left:0.5em;
+        margin-right:0.5em;
+        margin-bottom:0.5em;
+    }
+    
 }
 
 @media only screen and (min-width:480px) and (max-width: 736px) and (orientation: landscape) {
