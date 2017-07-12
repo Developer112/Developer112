@@ -61,6 +61,24 @@ body {
     margin:0px;
 }
 
+.subtitle h3 {
+    color:black;
+    font-size: 3em;
+    padding: 0px;
+    margin:0px;
+}
+
+.paragraph {
+        margin-top:2rem;
+        margin-right:3rem;
+        margin-left:3rem;
+        background-color:orange;
+        border-radius:75px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+
 @media only screen and (min-width:300px) and (max-width: 420px) and (orientation: portrait) {
     
     #banner {
@@ -75,8 +93,8 @@ body {
     
     .paragraph p {
         margin-top:0.5em;
-        margin-left:0.5em;
-        margin-right:0.5em;
+        margin-left:1em;
+        margin-right:1em;
         margin-bottom:0.5em;
     }
     
